@@ -1,0 +1,106 @@
+.shopexHead h5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Josefin Sans";
+  font-size: 36px;
+  line-height: 49px;
+  margin-top: -80px;
+  color: #151875;
+}
+
+.shopexFlex {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: 0 auto;
+  height: 60%;
+  padding-top: 60px;
+  margin-bottom: 100px;
+}
+
+.shopexTitle1,
+.shopexTitle2,
+.shopexTitle3,
+.shopexTitle4 {
+  background: #ffffff;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+  margin-right: 30px;
+}
+
+.shopexTitle1:hover,
+.shopexTitle2:hover,
+.shopexTitle3:hover,
+.shopexTitle4:hover {
+  transform: translateY(-30px);
+  transition: all 0.7s;
+}
+
+.shopexTitle1 > img,
+.shopexTitle2 > img,
+.shopexTitle3 > img,
+.shopexTitle4 > img {
+  padding-top: 60px;
+}
+
+.shopexTitle1 > h4,
+.shopexTitle2 > h4,
+.shopexTitle3 > h4,
+.shopexTitle4 > h4 {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  line-height: 26px;
+  color: #151875;
+  padding-top: 20px;
+}
+
+.shopexTitle1 > p,
+.shopexTitle2 > p,
+.shopexTitle3 > p,
+.shopexTitle4 > p {
+  padding-bottom: 50px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(26, 11, 91, 0.3);
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1157px) {
+  .shopexFlex {
+    margin-right: 120px;
+  }
+
+  .shopexTitle4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .shopexTitle3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:764px) {
+  .shopexContainer {
+    margin-top: 150px;
+  }
+
+}
+
+@media screen and (max-width:609px) {
+  .shopexFlex {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

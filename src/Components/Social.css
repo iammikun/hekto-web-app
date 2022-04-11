@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.socImg {
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.socImg > img {
+    width: 60%;
+    margin: 0 auto;
+}

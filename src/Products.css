@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.products-container {
+  margin-top: 140px;
+}
+
+.product-logo {
+}
+
+.bag-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px 10px #f6f4fd;
+  border-radius: 2px;
+  width: 70%;
+  border: 8px solid #fff;
+  margin: auto;
+  margin-top: 100px;
+  /* margin-left: 60px; */
+}
+
+.column-bag {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+  align-items: center;
+}
+
+.column-bag img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ply-container {
+  margin-top: 80px;
+}
+
+.ply-container h3 {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  line-height: 42px;
+  color: #0d134e;
+}
+
+.ply-container h6 {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #151875;
+}
+
+.ply-container h5 {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 35px;
+  color: #0d134e;
+}
+
+.ply-container p {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 29px;
+  width: 95%;
+  color: #a9acc6;
+}
+
+.star-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.money-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.money-flex h5 {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: #151875;
+}
+
+.money-flex .mbo {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  color: #fb2e86;
+}
+
+.add-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.add-cont h4 {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #151875;
+  align-items: center;
+}
+
+.add-cont img {
+  align-items: center;
+}
+
+.proper-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.deinst-color {
+  background: #f9f8fe;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.mrg-movement {
+  margin: auto;
+  width: 72%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.mrg-ul {
+  list-style: none;
+  gap: 100px;
+  text-decoration: none;
+}
+
+.active a {
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #151875;
+  font-weight: bold;
+}
+
+.mrg-link a {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #151875;
+  font-weight: bold;
+}
+
+.mrg-link a:hover {
+  text-decoration-line: underline;
+}
+
+.deinst-color .deinst-main {
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  line-height: 46px;
+  color: #151875;
+  margin-top: 50px;
+}
+
+.deinst-color p {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 29px;
+  color: #a9acc6;
+}
+
+.flexPee {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.flexPee p {
+  line-height: 33px;
+}
+
+.relPro-container {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.relPro {
+  width: 72%;
+  margin: auto;
+}
+
+.relPro h3 {
+  font-family: "Josefin Sans";
+  font-size: 28px;
+  line-height: 42px;
+  color: #101750;
+}
+
+.deep-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.jeanFlex,
+.jeanFlex2,
+.jeanFlex3,
+.jeanFlex4 {
+  display: flex;
+  flex-direction: row;
+  gap: 59px;
+  margin-top: 10px;
+}
+
+.jeanFlex h5,
+.jeanFlex2 h5,
+.jeanFlex3 h5,
+.jeanFlex4 h5 {
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 29px;
+  color: #151875;
+}
+
+.jeanFlex img {
+    margin-top: -25px;
+}

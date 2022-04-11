@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grey {
+  background-color: #f2f0ff;
+  margin-top: 110px;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* padding-bottom: 120px; */
+}
+
+.homeText {
+  width: 40%;
+  margin-top: 200px;
+  margin-left: -80px;
+}
+
+.homeText p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #fb2e86;
+}
+
+.homeText h2 {
+  font-family: "Josefin Sans";
+  font-size: 49px;
+  line-height: 62px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.homeText h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  width: 95%;
+  color: #8a8fb9;
+  font-family: "Lato", sans-serif;
+}
+
+.homeText > button {
+  color: #fff;
+  background: #fb2e86;
+  border-radius: 2px;
+  border: none;
+  padding: 14px 29px;
+  margin-top: 20px;
+  font-family: "Josefin Sans";
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.homeText > button:hover {
+  background-color: #f6f5ff;
+  color: #000000;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.sofa-flex {
+  padding-top: 50px;
+}
+
+.sofaImage {
+  width: 100%;
+  /* margin-left: 400px; */
+}
+.sofaImage > img {
+  width: 80%;
+}
+
+.carol {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.carolSelActive {
+  background: #fb2e86;
+  width: 10px;
+  height: 9.89px;
+  margin-right: 15px;
+  /* border-radius: 80%; */
+  transform: rotate(-45deg);
+}
+
+.carolSel {
+  background: transparent;
+  width: 10px;
+  height: 9.89px;
+  margin-right: 15px;
+  border: 1px solid #fb2e86;
+  box-sizing: border-box;
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1225px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-left: 170px;
+    gap: 10%;
+  }
+
+  .lampImage {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1201px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .homeText {
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .sofa-flex {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .carol {
+    margin-top: 50px;
+  }
+}

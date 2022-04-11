@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-wrapper {
+  margin-top: 130px;
+  overflow: hidden;
+}
+
+.contact-logo {
+  background: #f6f5ff;
+  padding: 100px;
+  padding-left: 220px;
+}
+
+.contact-logo h1 {
+  font-family: "Josefin Sans";
+  font-size: 36px;
+  line-height: 42px;
+  color: #101750;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 100px;
+  margin-top: 100px;
+  margin-bottom: 75px;
+  margin-left: 34px;
+}
+
+.dahFirstOne,
+.dahSecondOne {
+  width: 35%;
+}
+
+.dahSecondOne {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.dahFirstOne h3,
+.dahSecondOne h3 {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  line-height: 48px;
+  color: #151875;
+  width: 100%;
+}
+
+.dahFirstOne p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  width: 100%;
+  color: #8a8fb9;
+  margin-top: 10px;
+}
+
+.color-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.colorBlue {
+  background: #5625df;
+  height: 20px;
+  width: 20px;
+  border-radius: 35px;
+}
+
+.colorPink {
+  background: #ff27b7;
+  width: 20px;
+  height: 20px;
+  border-radius: 35px;
+}
+
+.colorGreen {
+  background: #37daf3;
+  width: 20px;
+  height: 20px;
+  border-radius: 35px;
+}
+
+.dahSecBlue {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.dahSecBlue > .wuman {
+  background: #5726df;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+}
+
+.dahSecBlue .peace {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a8fb9;
+}
+
+.dahSecYel {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.dahSecYel > .wuman {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background: #ffb265;
+}
+
+.dahSecYel .peace {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a8fb9;
+}
+
+.domTop {
+  margin-top: 20px;
+}
+
+.dahSecPink {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.dahSecPink > .wuman {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background: #fb2e86;
+}
+
+.dahSecPink .peace {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a8fb9;
+}
+
+.dahSecGreen {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.dahSecGreen > .wuman {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background: #1be982;
+}
+
+.dahSecGreen .peace {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #8a8fb9;
+}
+
+.touch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 120px;
+  gap: 30px;
+  margin-left: 35px;
+}
+
+.touchTxt {
+  margin-top: 60px;
+  width: 35%;
+}
+
+.touchTxt h3 {
+  font-family: "Josefin Sans";
+  font-size: 29px;
+  line-height: 48px;
+  color: #151875;
+  width: 100%;
+}
+
+.touchTxt p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 15px;
+  line-height: 26px;
+  color: #8a8fb9;
+}
+
+.touchImg {
+  width: 40%;
+  margin-top: 80px;
+}
+
+.touchImg > img {
+  width: 100%;
+}
+
+.touchForm {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.touchForm > .continput {
+  margin-right: 25px;
+}
+
+.touchForm > input {
+  width: 100%;
+}
+
+.touchForm input {
+  border: 1px solid rgba(164, 182, 200, 0.7);
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 100%;
+  padding: 14px 14px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #8a8fb9;
+  transition: all 0.9s;
+}
+
+.touchForm input:hover {
+}
+
+.domo {
+  margin-top: 38px;
+}
+
+.domo > input {
+  border: 1px solid rgba(164, 182, 200, 0.7);
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 14px 13px;
+  width: 100%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #8a8fb9;
+}
+
+.domo textarea {
+  border: 1px solid rgba(164, 182, 200, 0.7);
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 14px 13px;
+  width: 100%;
+  height: 166px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  margin-top: 38px;
+  color: #8a8fb9;
+}
+
+.press {
+  margin-top: 38px;
+}
+
+.press > a {
+  text-decoration: none;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #fb2e86;
+  border-radius: 3px;
+  padding: 17px 38px;
+}
+
+.press > a:hover {
+  background: #f6f5ff;
+  color: #000000;
+  transition: all 0.4s;
+  border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 1260px) {
+  .contact-flex {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .contact-logo {
+    padding-left: 162px;
+  }
+
+  .dahFirstOne,
+  .dahSecondOne {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .dahFirstOne {
+    margin-top: 50px;
+  }
+
+  .dahSecBlue {
+    width: 100%;
+  }
+
+  .touch {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 95px;
+  }
+
+  .touchTxt {
+    width: 100%;
+  }
+
+  .touchTxt p {
+    width: 80%;
+  }
+
+  .touchForm,
+  .domo,
+  .touchImg {
+    width: 100%;
+  }
+
+  .touchForm input {
+    width: 37%;
+  }
+
+  .domo input,
+  .domo textarea {
+    width: 77%;
+  }
+
+  .touchImg {
+    width: 77%;
+    align-items: center;
+    margin: auto;
+    margin-left: -1px;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .dahSecondOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 350px; */
+  }
+
+  .domTop {
+    margin-top: -20px;
+    align-items: center;
+    margin-right: 12px;
+  }
+
+  .touch {
+    margin-left: 75px;
+  }
+
+  .touchImg {
+    margin-right: 170px;
+    width: 100%;
+  }
+
+  .touchImg > img {
+    width: 100%;
+  }
+
+  .dahSecondOne {
+    margin-left: -115px;
+  }
+
+  .touchTxt {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width:515px) {
+  .contact-logo {
+    padding-left: 50px;
+  }
+
+  .dahSecondOne {
+    margin-left: -90px;
+  }
+}
+
+@media screen and (max-width:444px) {
+  .dahFirstOne {
+    margin-left: -20px;
+  }
+
+  .touchTxt {
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width:434px) {
+  .dahSecondOne {
+    margin-left: -20px;
+  }
+}

@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.acct-container {
+  margin-top: 130px;
+}
+
+.acctLogo {
+  width: 100%;
+  background: #f6f5ff;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  padding-left: 220px;
+}
+
+.acctLogo h2 {
+  font-family: "Josefin Sans";
+  font-size: 36px;
+  line-height: 42px;
+  color: #101750;
+}
+
+.row {
+  display: flex;
+  gap: 4px;
+}
+
+.row p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.row .line {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  color: #fb2e86;
+}
+
+.row .zine {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fb2e86;
+}
+
+.acctForm {
+  background: #ffffff;
+  box-shadow: 0px 0px 25px 10px #f8f8fb;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  margin: auto;
+  margin-top: 110px;
+  padding-bottom: 49px;
+}
+
+.accttxt {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.accttxt h4 {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 29px;
+  line-height: 38px;
+  color: #000000;
+  padding-top: 40px;
+}
+
+.accttxt p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #9096b2;
+}
+
+.accttxt input {
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #c2c5e1;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 80%;
+  height: 50px;
+  margin-top: 27px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #9096b2;
+  padding: 15px;
+}
+
+.signBtn {
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+
+.signBtn > a {
+  color: #ffffff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 20px;
+  background: #fb2e86;
+  border-radius: 3px;
+  border: none;
+  width: 80%;
+  height: 47px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 3% 36%;
+}
+
+.signBtn > a:hover {
+  color: #000;
+  background: #f6f5ff;
+  transition: all 0.5s;
+}
+
+.goTo {
+  align-items: left;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.goTo a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9096b2;
+  text-decoration: none;
+  padding-left: 50px;
+  /* margin-top: 30px; */
+}
+
+.create {
+  padding-top: 14px;
+}
+
+.create a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #9096b2;
+  font-family: "Lato";
+  font-style: normal;
+}
+
+@media screen and (max-width: 1047px) {
+  .acctForm {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 723px) {
+  .acctForm {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .acctLogo {
+    padding-left: 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .acctForm {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 328px) {
+  .acctForm {
+    width: 100%;
+  }
+
+  .signBtn > a {
+    padding: 3% 16%;
+    align-items: left;
+  }
+}

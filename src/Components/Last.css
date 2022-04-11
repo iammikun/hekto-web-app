@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.last-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.last-logo h3 {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 32px;
+  line-height: 49px;
+  color: #151875;
+}
+
+.last-flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+
+.blog1,
+.blog1-mid,
+.blog3 {
+  background: #ffffff;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+  border-radius: 5px;
+  width: 23.3%;
+}
+
+.blog1 > img,
+.blog1-mid > img,
+.blog3 > img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.sub-flex {
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  padding-left: 18px;
+}
+
+.lami {
+  gap: 8px;
+}
+
+.lami h6 {
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  line-height: 16px;
+  color: #151875;
+}
+
+.wasope {
+  padding-bottom: 40px;
+}
+
+.wasope h5 {
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  line-height: 21px;
+  color: #151875;
+  margin-top: 30px;
+  padding-left: 18px;
+}
+
+.wasope p,
+.wasope-mid p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #72718f;
+  width: 90%;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  padding-left: 18px;
+}
+
+.wasope > a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: #151875;
+  padding-left: 18px;
+}
+
+.wasope-mid {
+  padding-bottom: 40px;
+}
+
+.wasope-mid h5 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fb2e86;
+  margin-top: 30px;
+  padding-left: 18px;
+}
+
+.wasope-mid a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  text-decoration-line: underline;
+  padding-left: 18px;
+  color: #fb2e86;
+}
+
+.sub-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.lami {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 953px) {
+  .blog3 {
+    display: none;
+  }
+
+  .blog1,
+  .blog1-mid {
+    width: 35%;
+  }
+}

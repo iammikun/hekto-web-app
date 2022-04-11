@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.featuredComp {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.featuredComp h5 {
+  font-family: "Josefin Sans";
+  font-size: 36px;
+  line-height: 49px;
+  color: #1a0b5b;
+  margin-top: 130px;
+}
+
+.featuredImages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.chair1,
+.chair2,
+.chair3,
+.chair4 {
+  margin-right: 25px;
+  padding-bottom: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dash {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.dashGreen {
+  background: #05e6b7;
+  border-radius: 10px;
+  margin-right: 4px;
+  width: 14px;
+  height: 4px;
+}
+
+.dashPink {
+  background: #f701a8;
+  border-radius: 10px;
+  width: 14px;
+  margin-right: 4px;
+  height: 4px;
+}
+
+.dashBlue {
+  background: #00009d;
+  border-radius: 10px;
+  width: 14px;
+  margin-right: 4px;
+  height: 4px;
+}
+
+.chair1 > img,
+.chair2 > img,
+.chair3 > img,
+.chair4 > img {
+  background-color: #f2f0ff;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.chair1 > img {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.chair2 > img {
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 55px;
+}
+
+.chair3 > img {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-top: 48px;
+}
+
+.chair4 > img {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.chair1 > img:hover,
+.chair2 > img:hover,
+.chair3 > img:hover,
+.chair4 > img:hover,
+.chairText:hover {
+  /* background-color: #1a0b5b; */
+}
+
+.chairText p {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: #f701a8;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+.chairText h5 {
+  font-size: 14px;
+  font-family: "Josefin Sans";
+  line-height: 16px;
+  color: #1a0b5b;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.nextSlideActive {
+  background: #fb2e86;
+  border-radius: 10px;
+  width: 24px;
+  height: 4px;
+}
+
+.nextSlide {
+  border-radius: 10px;
+  width: 16px;
+  height: 4px;
+  background: #febad7;
+}
+
+@media screen and (max-width:1153px) {
+  .chair4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:901px){
+  .chair3 {
+    display: none;
+  }
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.latestComp {
+  padding-bottom: 150px;
+}
+
+.latestCompTxt {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.latestCompTxt h5 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Josefin Sans";
+  font-size: 36px;
+  line-height: 49px;
+  color: #151875;
+  margin-top: 50px;
+}
+
+.latestCompNav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navLink {
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.linksActive {
+  text-decoration: none;
+  list-style: none;
+  color: #FB2E86;
+  
+}
+
+
+.nav .linkActive a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.navLink a {
+  text-decoration: none;
+  /* margin-right: 60px; */
+  /* justify-content: space-around; */
+  align-items: center;
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #151875;
+  padding: 0px 20px;
+
+}
+
+.linksActive a {
+  color: #FB2E86;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-emphasis: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.imgContainer {
+  margin-right: 50px;
+  background: #F7F7F7;
+  padding: 0px 33px;  
+
+}
+
+.white-span {
+  background: #fff;
+  width: 100%;
+  
+}
+
+.imgContainer > img {
+  padding: 20px 60px;
+}
+
+.imgContainer4,
+.imgContainer5,
+.imgContainer6 {
+  margin-right: 30px;
+  background: #F7F7F7;
+}
+
+.imgContainer4 {
+  padding: 0px 50px;
+}
+
+.imgContainer5 {
+  padding: 0px 30px;
+}
+
+.imgContainer > img {
+  padding-left: 20px;
+  padding-right: 30px;
+  width: 100%;
+}
+
+@media screen and (max-width:1025px) {
+  .imgContainer4,
+  .imgContainer6 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:764px) {
+  .latestComp {
+    display: none;
+  }
+}

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.category-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cartImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.category-logo h3 {
+  font-family: "Josefin Sans";
+  font-size: 35px;
+  line-height: 49px;
+  text-align: center;
+  color: #151875;
+}
+
+.cartImg img {
+  background: #f6f7fb;
+  border-radius: 150px;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+  margin-right: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.cartImg .image1 {
+  padding: 33px;
+}
+
+.cartImg .image2 {
+  padding: 43px;
+}
+
+.cartImg .image3 {
+  padding: 45px;
+}
+
+.cartImg .image4 {
+  padding: 30px;
+}
+
+.cough1 > img:hover,
+.cough2 > img:hover,
+.cough3 > img:hover,
+.cough4 > img:hover {
+  border-left: 8px solid #151875;
+  border-radius: 150px;
+}
+
+.cough1 h4,
+.cough2 h4,
+.cough3 h4,
+.cough4 h4 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #151875;
+  margin-top: 10px;
+}
+
+.cough1 h6,
+.cough2 h6,
+.cough3 h6,
+.cough4 h6{
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  line-height: 25px;
+  color: #151875;
+}
+
+.cart-rosel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.rosel-active {
+  background: #fb2e86;
+  border-radius: 50px;
+  transform: rotate(-45deg);
+  width: 10px;
+  height: 9.89px;
+}
+
+.rosel {
+  border: 1px solid #fb2e86;
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: 10px;
+  height: 9.89px;
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width:1074px) {
+    .cough4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:821px) {
+    .cough3 {
+        display: none;
+    }
+}
